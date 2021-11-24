@@ -1,0 +1,25 @@
+import numpy as np
+arr = np.arange(1,11)
+print(arr)
+print(arr+arr)
+print(arr-arr)
+print(arr*arr)
+print(arr+1)
+print(arr+100)
+print(arr-2)
+print(arr*2)
+print(arr/3)
+print(arr/0)
+
+arr1 = np.arange(0,11)
+print(arr1)
+print(arr1/0)
+print(arr1/arr1)
+print(arr1**2)
+print(np.sqrt(arr1))
+print(np.exp(arr1))
+print(np.max(arr1))
+print(np.min(arr1))
+print(np.cos(arr1))
+
+# numpy universal functions https://numpy.org/doc/stable/reference/ufuncs.html
